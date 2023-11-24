@@ -1,0 +1,9 @@
+Package: com.yan.standby
+Name: StandBy
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: yan
+Author: yan
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal
