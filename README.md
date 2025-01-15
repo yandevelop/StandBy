@@ -9,6 +9,6 @@ Development was made on iPhone X running iOS 14.3.
 
 Below you can find working examples of what this tweak was intended to be.
 
-<img src="https://raw.githubusercontent.com/yandevelop/StandyBy/master/Resources/IMG_9086.jpg" width=400 style="transform: rotate(90deg);">
-<img src="https://raw.githubusercontent.com/yandevelop/StandyBy/master/Resources/IMG_9089.jpg" width=400 style="transform: rotate(90deg);">
-<img src="https://raw.githubusercontent.com/yandevelop/StandyBy/master/Resources/IMG_9090.jpg" width=400 style="transform: rotate(90deg);">
+<img src="./Resources/IMG_9086.jpg" width=400 style="transform: rotate(90deg);">
+<img src="./Resources/IMG_9089.jpg" width=400 style="transform: rotate(90deg);">
+<img src="./Resources/IMG_9090.jpg" width=400 style="transform: rotate(90deg);">
