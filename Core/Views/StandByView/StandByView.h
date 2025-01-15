@@ -1,0 +1,2 @@
+@interface StandByView : UIView
+@end

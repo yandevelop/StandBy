@@ -1,0 +1,5 @@
+#import "StandByView/StandByView.m"
+#import "GradientView/GradientView.m"
+#import "MomentView/MomentView.m"
+#import "DualView/DualView.m"
+#import "MusicView/MusicView.m"

@@ -1,16 +1,19 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "Core/PrefsManager/PrefsManager.m"
-#import "Views/StandByView/StandByView.m"
-#import <Cephei/HBPreferences.h>
-#import <GcUniversal/GcColorPickerUtils.h>
-
-HBPreferences *prefs;
-BOOL enabled;
+#import "Core/ViewControllers/StandByViewController.m"
 
 @interface CSProudLockViewController : UIViewController
-@property (nonatomic, strong) StandByView *standByView;
+@property (nonatomic, strong) StandByViewController *SBViewController;
 - (void)deviceOrientationDidChange:(NSNotification *)notification;
-- (void)setupStandByView;
-- (BOOL)isDeviceCharging;
+@end
+
+@interface SBLockScreenManager : NSObject
++ (id)sharedInstance;
+- (void)setBiometricAutoUnlockingDisabled:(BOOL)disabled forReason:(NSString *)reason;
+@end
+
+@interface SBUIBiometricResource : NSObject
++ (id)sharedInstance;
+- (void)noteScreenDidTurnOff;
+- (void)noteScreenWillTurnOn;
 @end
